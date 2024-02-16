@@ -31,9 +31,11 @@ import Image from 'next/image';
 export default function AboutPage() {
   return (
     <div className={`${styles.container} text-center p-10`}>
-      <div className={styles['image-container']}>
-        <Image src="/zaky.jpg" alt="Zaky Muhammad Yusuf" width={200} height={200} />
-      </div>
+      <a href="https://www.instagram.com/zaky_m_yusuf/" target="_blank" rel="noopener noreferrer">
+        <div className={styles['image-container']}>
+          <Image src="/zaky.jpg" alt="Zaky Muhammad Yusuf" width={200} height={200} />
+        </div>
+      </a>
       <h1 className="font-bold text-2xl my-4">Zaky Muhammad Yusuf</h1>
 
       <p className="text-gray-300">
