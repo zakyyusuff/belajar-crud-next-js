@@ -1,4 +1,4 @@
-### Nextjs MySQL CRUD
+### Simple Nextjs MySQL CRUD
 
 Nextjs CRUD using MySQL and TailwindCSS
 
