@@ -1,0 +1,25 @@
+.container {
+    color: white;
+  }
+  
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-container {
+    width: 200px; /* sesuaikan dengan lebar yang diinginkan */
+    height: 200px; /* sesuaikan dengan tinggi yang diinginkan */
+    overflow: hidden;
+    margin-bottom: 16px; /* jarak antara gambar dan teks */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px; /* jika ingin membuat sudut gambar menjadi melengkung */
+  }
+  
